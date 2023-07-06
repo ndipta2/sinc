@@ -25,3 +25,18 @@ if your editor runs Clangd or Clang-Tidy for analyzer, you can generate **compil
 ```sh
 bear -- make -j$(nproc)
 ```
+
+## Building Doxygen Documentation
+
+Run this command:
+
+```sh
+doxygen ./sinc_doxyconf
+```
+
+then you can view documentation using command:
+
+```sh
+xdg-open ./sinc_doxygen_doc/html/index.html
+```
+
